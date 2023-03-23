@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#viewport-container {
+    height: 100vh;
+    background-color: black;
+}
+
+
+
+/* regole header */
+
+#head-container {
+    display: flex;
+    justify-content: end;
+
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+span {
+    margin-right: 7px;
+}
+
+.box {
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/* debug */
